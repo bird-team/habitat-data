@@ -5,10 +5,11 @@ options(stringsAsFactors = FALSE)
 ## define functions
 st_explode <- function(x) {
   if (inherits(x, "sf")) {
-    as(sp::disaggregate(as(x, "Spatial")), "sf")
+    y <- as(sp::disaggregate(as(x, "Spatial")), "sf")
   } else {
-    as(sp::disaggregate(as(x, "Spatial")), "sfc")
+    y <- as(sp::disaggregate(as(x, "Spatial")), "sfc")
   }
+  sf::st_set_crs(y, sf::st_crs(x))
 }
 
 st_fast_difference <- function(x, y) {
@@ -140,14 +141,12 @@ vegetation_data <- sf::st_collection_extract(vegetation_data, type = "POLYGON")
 ### extract non-remnant areas
 nonrem_data <- vegetation_data %>%
                filter(atlas_name == "non-rem") %>%
-               st_explode() %>%
-               sf::st_set_crs(sf::st_crs(vegetation_data))
+               st_explode()
 
 ### urban non-remnant areas
 urban_nonrem_data <- nonrem_data %>%
                      sf::st_intersection(st_explode(bua_data)) %>%
-                     sf::st_union() %>%
-                     sf::st_set_crs()
+                     sf::st_union()
 urban_nonrem_data <- classification_data %>%
                      filter(grepl("non-rem", code, fixed = TRUE),
                             grepl("urban", code, fixed = TRUE)) %>%
