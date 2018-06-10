@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd      http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd      http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+    <fileIdentifier>
+        <gco:CharacterString>{018D121F-55A2-4F49-BE59-829BFF7EE4BC}</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+    </characterSet>
+    <parentIdentifier>
+        <gco:CharacterString>{5D83A495-2515-45E0-B91F-A65589113A17}</gco:CharacterString>
+    </parentIdentifier>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    
+    <contact>
+        <CI_ResponsibleParty id="metadataContact">
+            <organisationName>
+                <gco:CharacterString>Department of Environment and Science</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>Senior Scientist</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>61 7 389 69326</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>Brisbane Botanic Gardens, Mt Coot-tha Road</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Toowong</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>QLD</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>4066</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <gco:CharacterString>Australia</gco:CharacterString>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>queensland.herbarium@qld.gov.au</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                    <onlineResource>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://www.qld.gov.au/environment/plants-animals/plants/herbarium/</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onlineResource>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2015-11-16</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19115:2005, ANZLIC ISO 1.1</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>QGIS</gco:CharacterString>
+    </metadataStandardVersion>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem id="coordRefSystem">
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <authority>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPSG Geodetic Parameter
+                                Dataset</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date>
+                                        <gco:Date>2007-07-16</gco:Date>
+                                    </date>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision </CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                            <edition>
+                                <gco:CharacterString>Version 6.13</gco:CharacterString>
+                            </edition>
+                        </CI_Citation>
+                    </authority>
+                    <code>
+                        <gco:CharacterString>EPSG:4283</gco:CharacterString>
+                    </code>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    
+    
+    
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Wetland data - version 4 - wetland areas - Queensland</gco:CharacterString>
+                    </title>
+                    <alternateTitle>
+                        <gco:CharacterString>DP_QLD_WETLAND_SYSTEM_100K_A.zip</gco:CharacterString>
+                    </alternateTitle>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2015-11-16</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    
+                    
+                    
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty id="resourceCustodian">
+                            <organisationName>
+                                <gco:CharacterString>Department of Environment and Science</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Assistant Director-General, Natural Resources and Environment</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                                                
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty id="resourceOwner">
+                            <organisationName>
+                                <gco:CharacterString>Department of Environment and Science</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Science Leader, Ecosystem Survey and Mapping</gco:CharacterString>
+                            </positionName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty id="otherCitContact1">
+                            <organisationName>
+                                <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Qspatial support</gco:CharacterString>
+                            </positionName>
+							<contactInfo>
+								<CI_Contact>
+									<phone>
+										<CI_Telephone>
+											<voice>
+												<gco:CharacterString>61 7 3330 4439</gco:CharacterString>
+											</voice>
+										</CI_Telephone>
+									</phone>
+									<address>
+										<CI_Address>
+											<deliveryPoint>
+												<gco:CharacterString/>
+											</deliveryPoint>
+											<city>
+												<gco:CharacterString/>
+											</city>
+											<administrativeArea>
+												<gco:CharacterString/>
+											</administrativeArea>
+											<postalCode>
+												<gco:CharacterString/>
+											</postalCode>
+											<country>
+												<gco:CharacterString/>
+											</country>
+											<electronicMailAddress>
+												<gco:CharacterString>discovery@dnrme.qld.gov.au</gco:CharacterString>
+											</electronicMailAddress>
+										</CI_Address>
+									</address>
+									
+								</CI_Contact>
+							</contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    
+                    
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                    
+                </CI_Citation>
+            </citation>
+
+
+            <abstract>
+                <gco:CharacterString>This dataset provides mapping of water bodies and wetland regional ecosystems at 1:100,000 scale across Queensland.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>To report and monitor wetland extent and type and change in extent and type</gco:CharacterString>
+            </purpose>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <organisationName>
+                        <gco:CharacterString>Department of Environment and Science</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Science Leader, Ecosystem Survey and Mapping</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>61 7 389 69326</gco:CharacterString>
+                                    </voice>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <deliveryPoint>
+                                        <gco:CharacterString>Brisbane Botanic Gardens, Mt Coot-tha Road</gco:CharacterString>
+                                    </deliveryPoint>
+                                    <city>
+                                        <gco:CharacterString>Toowong</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>QLD</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>4066</gco:CharacterString>
+                                    </postalCode>
+                                    <country>
+                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                    </country>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>queensland.herbarium@qld.gov.au</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                            <onlineResource>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>https://www.qld.gov.au/environment/plants-animals/plants/herbarium/</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onlineResource>                            
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular"/>
+                    </maintenanceAndUpdateFrequency>
+                    
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            
+            <resourceFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>SHP</gco:CharacterString>
+                    </name>
+                    <version>
+                        <gco:CharacterString>10.4</gco:CharacterString>
+                    </version>
+                </MD_Format>
+            </resourceFormat>
+            <descriptiveKeywords>
+                <MD_Keywords id="ThemeAnzlicThesaurus">
+                    <keyword>
+                        <gco:CharacterString>ECOLOGY-Ecosystem</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Wetlands</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date gco:nilReason="unknown"/>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords id="ThemeOpenDataThesaurus">
+                    <keyword>
+                        <gco:CharacterString>Sciences</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>Queensland Open Data Categories</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date gco:nilReason="unknown"/>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords id="ThemeOtherThesaurus">
+                    <keyword>
+                        <gco:CharacterString>Water bodies</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>Common name</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date gco:nilReason="unknown"/>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                            <otherCitationDetails>
+                                <gco:CharacterString>Theme keywords input by metadata
+                                publisher</gco:CharacterString>
+                            </otherCitationDetails>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            
+            <resourceConstraints>
+                <MD_SecurityConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>PUBLIC</gco:CharacterString>
+                    </useLimitation>
+                    <classification>
+                        <MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</MD_ClassificationCode>
+                    </classification>
+                    <classificationSystem>
+                        <gco:CharacterString>Resource Access Level</gco:CharacterString>
+                    </classificationSystem>
+                </MD_SecurityConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>&amp;copy State of Queensland (Department of Environment and Science) 2018</gco:CharacterString>
+                    </useLimitation>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</MD_RestrictionCode>
+                    </useConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>This material is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by/4.0/"&gt;Creative Commons - Attribution 4.0 Australia&lt;/a&gt; licence.&lt;br /&gt; &lt;a rel="license" href="http://creativecommons.org/licenses/by/4.0/"&gt;&lt;img alt="Creative Commons License" title="Creative Commons - Attribution 4.0 Australia License" style="border: 0;" src="https://licensebuttons.net/l/by/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt; The Department of Environment and Science requests attribution in the following manner:&lt;br /&gt; &amp;copy State of Queensland (Department of Environment and Science) 2018. Updated data available at http://qldspatial.information.qld.gov.au/catalogue//.</gco:CharacterString>
+                    </useLimitation>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</MD_RestrictionCode>
+                    </useConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            
+            
+            
+            
+            <aggregationInfo>
+                <MD_AggregateInformation>
+                    <aggregateDataSetIdentifier>
+                        <MD_Identifier>
+                            <code>
+                                <gco:CharacterString>SWS.QLD.WETLAND_AREAS</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </aggregateDataSetIdentifier>
+                    <associationType>
+                        <DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source">source</DS_AssociationTypeCode>
+                    </associationType>
+                </MD_AggregateInformation>
+            </aggregationInfo>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            
+            <language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </language>
+            <characterSet gco:nilReason="unknown"/>
+            <topicCategory>
+                <MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>Directory</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>138.001</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>153.612</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>-29.194</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>-9.088</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                    
+                    
+                    <temporalElement>
+                        <EX_TemporalExtent>
+                            <extent>
+                                <gml:TimePeriod frame="#ISO-8601" gml:id="timePeriod1">
+                                    <gml:beginPosition>2012-12-14</gml:beginPosition>
+                                    <gml:endPosition>2012-12-14</gml:endPosition>
+                                </gml:TimePeriod>
+                            </extent>
+                        </EX_TemporalExtent>
+                    </temporalElement>
+                </EX_Extent>
+            </extent>
+            
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format id="DownloadService">
+                    <name>
+                        <gco:CharacterString>Queensland Spatial Catalogue</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="inapplicable"/>
+                    <specification>
+                        <gco:CharacterString>Download Service</gco:CharacterString>
+                    </specification>
+                    <formatDistributor>
+                        <MD_Distributor>
+                            <distributorContact>
+                                <CI_ResponsibleParty>
+                                    <organisationName>
+                                        <gco:CharacterString>Department of Environment and Science</gco:CharacterString>
+                                    </organisationName>
+                                    <role>
+                                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</CI_RoleCode>
+                                    </role>
+                                </CI_ResponsibleParty>
+                            </distributorContact>
+                            <distributionOrderProcess>
+                                <MD_StandardOrderProcess>
+                                    
+                                    <orderingInstructions>
+                                        <gco:CharacterString>Open the Queensland Spatial Catalogue (QSpatial). Select the large SEARCH button and all available records are displayed. Select one of the four filter options provided and then the further options within the filter. The resultant search is then displayed. Select your record and complete the order.</gco:CharacterString>
+                                    </orderingInstructions>
+                                </MD_StandardOrderProcess>
+                            </distributionOrderProcess>
+                            <distributorTransferOptions>
+                                <MD_DigitalTransferOptions>
+                                    <onLine>
+                                        <CI_OnlineResource id="dns1">
+                                            <linkage>
+                                                <URL>http://qldspatial.information.qld.gov.au/catalogue/</URL>
+                                            </linkage>
+                                        </CI_OnlineResource>
+                                    </onLine>
+                                </MD_DigitalTransferOptions>
+                            </distributorTransferOptions>
+                        </MD_Distributor>
+                    </formatDistributor>
+                </MD_Format>
+            </distributionFormat>
+            
+            
+            <distributionFormat>
+                <MD_Format id="GptBehaviour">
+                    <name>
+                        <gco:CharacterString>downloadableData</gco:CharacterString>
+                    </name>
+                    <version>
+                        <gco:CharacterString>10.0</gco:CharacterString>
+                    </version>
+                    <specification>
+                        <gco:CharacterString>ESRI ArcGIS Server Geoportal Extension Content Type</gco:CharacterString>
+                    </specification>
+                </MD_Format>
+            </distributionFormat>
+            <distributor>
+                <MD_Distributor id="distributorContact1">
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Department of Environment and Science</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>opendata@des.qld.gov.au</gco:CharacterString>
+                            </positionName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>From Queensland Spatial Catalogue, this data is available as ESRI Shape.</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="inapplicable"/>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <transferSize>
+                                <gco:Real>404</gco:Real>
+                            </transferSize>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>http://qldspatial.information.qld.gov.au/catalogue/custom/search.page?q=%22Wetland data - version 4 - wetland areas - Queensland%22</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                            
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions id="download">
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL/>
+                            </linkage>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+                    </level>
+                    
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_CompletenessOmission>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>This dataset is complete.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_CompletenessOmission>
+            </report>
+            <report>
+                <DQ_ConceptualConsistency>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>All polygons visually checked at 1:100,000 scale and by topological consistency checks. Inconsistencies between the water body classification and wetland regional ecosystem classification were highlighted, manually checked and reconciled.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_ConceptualConsistency>
+            </report>
+            <report>
+                <DQ_AbsoluteExternalPositionalAccuracy>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>The positional accuracy of wetland data mapped at a scale of 1:100 000 is +/-75 metres. The minimum polygon size depicted is 5 ha or 75 metres wide for linear features, except for areas along the east coast which are mapped at the 1:50 000 scale with a positional accuracy of +/-50 metres, with a minimum polygon size of 1 ha or 35 metres wide for linear features. Wetlands smaller than 1 ha are not delineated on the wetland data. NB: Consideration of the effects of mapped scale is necessary when interpreting data at a larger scale, (eg: 1:25,000).For property assessment, digital linework should be used as a guide only.For further details refer to Attachment 3 Scale of Final Wetlands Mapping located on the DSITIA website.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_AbsoluteExternalPositionalAccuracy>
+            </report>
+            <report>
+                <DQ_NonQuantitativeAttributeAccuracy>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>Regional EcosystemsFormal and informal assessments show regional ecosystem attributes to be accurate &gt; 80% of the time.Water BodiesFormal assessment of selected areas (EPA, 2005) has shown that the delineation of wetlands by the water body mapping to have an overall accuracy of between 93-98%. The producer's accuracy of non-wetlands (i.e. how accurately non-wetland areas are mapped and the user's accuracy for wetlands (i.e. how accurate areas mapped as wetland are wetland) is also consistently high ranging from 77-99%. The water body mapping does miss substantial areas of wetland, as the producer's accuracy for wetlands is relatively low ranging from 14-54%. However, as the wetland regional ecosystem data maps areas of wetlands that are not well mapped by the water body data, many of these areas are not missing from the wetlands data.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_NonQuantitativeAttributeAccuracy>
+            </report>
+            
+            
+            
+            
+            <lineage>
+                <LI_Lineage>
+                    <statement>
+                        <gco:CharacterString>Queensland Wetland Data Version 3.0 - Wetland Data (2009), is an updated version of data previously released as version 1.0 (GBR catchments), version 1.1 (Wide Bay Burnett catchments), version 1.2 (Great Barrier Reef, northern Cape York Peninsula and Queensland Murray Darling Basin), version 1.3 (Queensland, 2001 extent) and version 2.0 (Queensland, 2005 extent) , versions up to and including version 1.3 depicted extent of wetlands based on rectified 2001 Landsat ETM+ imagery, version 2.0 depicted extent of wetlands based on rectified 2005 Landsat ETM+ imagery . Version 3.0 updates the depiction of the extent of wetlands from 2005 to 2009 based on rectified 2009 Landsat ETM+ imagery.This data is produced by combining (by union) the wetland regional ecosystem areas with water body data. Where overlap occurred across water bodies and regional ecosystem polygons, water body polygons take priority over regional ecosystem polygons, except for areas within mangrove and salt flat regional ecosystems. The identification of individual water bodies is not useful within these regional ecosystems, due to the limitations associated with mapping water bodies from satellite imagery in tidal areas.</gco:CharacterString>
+                    </statement>
+                    
+                    
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+    <metadataConstraints>
+        <MD_SecurityConstraints>
+            <useLimitation>
+                <gco:CharacterString>Public</gco:CharacterString>
+            </useLimitation>
+            <classification>
+                <MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified"/>
+            </classification>
+            <classificationSystem>
+                <gco:CharacterString>Metadata Access Level</gco:CharacterString>
+            </classificationSystem>
+        </MD_SecurityConstraints>
+    </metadataConstraints>
+</MD_Metadata>
