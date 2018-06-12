@@ -137,6 +137,15 @@ vegetation_data <- lwgeom::st_make_valid(vegetation_data)
 ## extract polygons
 vegetation_data <- sf::st_collection_extract(vegetation_data, type = "POLYGON")
 
+## remove overlapping areas
+vegetation_data <- sf::st_difference()
+
+### repair data
+vegetation_data <- lwgeom::st_make_valid(vegetation_data)
+
+## extract polygons
+vegetation_data <- sf::st_collection_extract(vegetation_data, type = "POLYGON")
+
 ## format non-remnant areas
 ### extract non-remnant areas
 nonrem_data <- vegetation_data %>%
