@@ -138,7 +138,7 @@ vegetation_data <- lwgeom::st_make_valid(vegetation_data)
 vegetation_data <- sf::st_collection_extract(vegetation_data, type = "POLYGON")
 
 ## remove overlapping areas
-vegetation_data <- sf::st_difference()
+vegetation_data <- sf::st_difference(vegetation_data)
 
 ### repair data
 vegetation_data <- lwgeom::st_make_valid(vegetation_data)
