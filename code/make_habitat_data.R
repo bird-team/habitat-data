@@ -173,7 +173,8 @@ wetland_nonrem_data <- classification_data %>%
 ### other non-remnant areas
 other_nonrem_data <- nonrem_data %>%
                      st_fast_difference(urban_nonrem_data %>%
-                                        rbind(wetland_data) %>%
+                                        sf::st_geometry() %>%
+                                        append(wetland_data) %>%
                                         sf::st_union() %>%
                                         lwgeom::st_make_valid() %>%
                                         sf::st_collection_extract(
