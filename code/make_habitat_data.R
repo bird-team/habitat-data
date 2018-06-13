@@ -99,7 +99,7 @@ study_area_data <- study_area_data %>%
                    sf::st_union() %>%
                    lwgeom::st_make_valid() %>%
                    lwgeom::st_snap_to_grid(1) %>%
-                   sf::st_simplify(100) %>%
+                   sf::st_simplify(TRUE, 100) %>%
                    sf::st_collection_extract(type = "POLYGON") %>%
                    lwgeom::st_make_valid()
 study_area_data <- sf::st_sf(name = "Brisbane", geometry = study_area_data)
@@ -107,7 +107,8 @@ study_area_data <- sf::st_sf(name = "Brisbane", geometry = study_area_data)
 ## create boundary box for processing data
 bbox_data <- study_area_data %>%
              sf::st_bbox() %>%
-             sf::st_as_sfc()
+             sf::st_as_sfc() %>%
+             sf::st_buffer(20000)
 
 ## crop data to within study area
 vegetation_data <- sf::st_intersection(vegetation_data, bbox_data)
@@ -129,8 +130,8 @@ wetland_data <- lwgeom::st_snap_to_grid(wetland_data, 1)
 bua_data <- lwgeom::st_snap_to_grid(bua_data, 1)
 
 ## simplify data
-wetland_data <- sf::st_simplify(wetland_data, TRUE, dTolerance = 1)
-bua_data <- sf::st_simplify(bua_data, TRUE, dTolerance = 1)
+wetland_data <- sf::st_simplify(wetland_data, TRUE, dTolerance = 100)
+bua_data <- sf::st_simplify(bua_data, TRUE, dTolerance = 100)
 
 ## select relevant columns in vegetation data
 vegetation_data <- vegetation_data %>% select(DBVG5M)
