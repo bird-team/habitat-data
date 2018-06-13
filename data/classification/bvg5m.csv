@@ -10,15 +10,15 @@ code,atlas_name,order
 9,Dry woodland,3
 10,Dry woodland,3
 11,Dry woodland,3
-12,Coastal heath,5
+12,Heath,5
 13,Grassland,4
 14,Grassland,4
 15,Wetland,7
 16,Estuary,8
 estuary,Estuary,8
 non-rem (urban land use),Built-up,6
-non-rem (not urban land use),Urban Green Space,5
+non-rem (not urban land use),Non-remnant,5
 non-rem (wetland land use),Wetland,8
 ocean,Ocean,9
-smallrem,Urban Green Space,5
+smallrem,Non-remnant,5
 water,Wetland,8
