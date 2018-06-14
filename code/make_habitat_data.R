@@ -1,6 +1,6 @@
 # Initialization
 ## set default options
-options(stringsAsFactors = FALSE)
+options(stringsAsFactors = FALSE, error = function() {traceback()})
 
 ## define functions
 st_explode <- function(x) {
@@ -151,9 +151,15 @@ bua_data <- sf::st_buffer(bua_data, 0)
 wetland_data <- sf::st_buffer(wetland_data, 0)
 
 ## extract polygons
-vegetation_data <- sf::st_collection_extract(vegetation_data, type = "POLYGON")
-bua_data <- sf::st_collection_extract(bua_data, type = "POLYGON")
-wetland_data <- sf::st_collection_extract(wetland_data, type = "POLYGON")
+vegetation_data <- vegetation_data %>%
+                   filter(!sf::st_is_empty(sf::st_geometry(.))) %>%
+                   sf::st_collection_extract(type = "POLYGON")
+bua_data <- bua_data %>%
+            `[`(!sf::st_is_empty(sf::st_geometry(.))) %>%
+            sf::st_collection_extract(type = "POLYGON")
+wetland_data <- wetland_data %>%
+                `[`(!sf::st_is_empty(sf::st_geometry(.))) %>%
+                sf::st_collection_extract(type = "POLYGON")
 
 ## remove slivers
 vegetation_data <- st_remove_slivers(vegetation_data)
