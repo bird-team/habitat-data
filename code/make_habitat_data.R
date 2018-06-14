@@ -108,7 +108,7 @@ study_area_data <- sf::st_sf(name = "Brisbane", geometry = study_area_data)
 bbox_data <- study_area_data %>%
              sf::st_bbox() %>%
              sf::st_as_sfc() %>%
-             sf::st_buffer(20000)
+             sf::st_buffer(5000)
 
 ## crop data to within study area
 vegetation_data <- sf::st_intersection(vegetation_data, bbox_data)
