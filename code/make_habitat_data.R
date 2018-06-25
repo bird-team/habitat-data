@@ -1,6 +1,6 @@
 # Initialization
 ## set default options
-options(stringsAsFactors = FALSE, error = function() {traceback()})
+options(stringsAsFactors = FALSE, error = function() {traceback();stop()})
 
 ## define functions
 st_explode <- function(x) {
@@ -195,6 +195,7 @@ urban_nonrem_data <- nonrem_data %>%
                      sf::st_intersection(bua_data %>%
                                          sf::st_geometry() %>%
                                          st_explode()) %>%
+                     sf::st_collection_extract(type = "POLYGON") %>%
                      sf::st_union()
 urban_nonrem_data <- classification_data %>%
                      filter(grepl("non-rem", code, fixed = TRUE),
@@ -238,13 +239,25 @@ other_nonrem_data <- classification_data %>%
                      sf::st_sf(geometry = other_nonrem_data) %>%
                      lwgeom::st_make_valid()
 
+### assemble areas outside of study area
+ocean_data <- study_area_data %>%
+              sf::st_geometry() %>%
+              sf::st_difference(sf::st_union(vegetation_data)) %>%
+              st_explode() %>%
+              sf::st_sf() %>%
+              filter(row_number() == which.max(sf::st_area(.))) %>%
+              sf::st_geometry()
+ocean_data <- sf::st_sf(atlas_name = "Ocean", order = 9999,
+                        geometry = ocean_data)
+
 ## assemble data set
-export_data <- do.call(rbind, 
+export_data <- do.call(rbind,
                        list(vegetation_data %>%
                               filter(atlas_name != "non-rem"),
                             urban_nonrem_data %>% select(-code),
                             wetland_nonrem_data %>% select(-code),
-                            other_nonrem_data %>% select(-code))) %>%
+                            other_nonrem_data %>% select(-code),
+                            ocean_data)) %>%
                group_by(atlas_name) %>%
                summarize(order = min(order)) %>%
                ungroup()
