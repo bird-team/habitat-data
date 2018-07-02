@@ -270,4 +270,4 @@ export_data <- export_data %>% select(-order)
 
 # Exports
 ## save data set
-sf::st_write(export_data, "exports/habitat_data.shp")
+sf::st_write(export_data, "exports/habitat_data.shp", delete_dsn = TRUE)
